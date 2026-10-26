@@ -149,7 +149,6 @@ class TestBurger:
 
         with pytest.raises(AttributeError):
              burger.get_receipt()
-        pass
 
     def test_move_ingredient_out_of_bounds(self):
         """
